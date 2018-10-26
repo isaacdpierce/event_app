@@ -12,6 +12,9 @@ body {
 .bck_black {
     background: #3c3c3c;
 }
+.bck_black_dark {
+    background: #0e0e0e;
+}
 .bck_white {
     background: #ffffff;
 }
@@ -118,8 +121,8 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
-    font-size: 19px;
+    background: black;
+    font-size: 15px;
     padding: 10px;
     display: inline-block;
     text-transform: uppercase;
@@ -127,13 +130,13 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: black;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
-    font-size: 70px;
-    border-right: 1px solid #F44336;
+    font-size: 45px;
+    border-right: 1px solid black;
     margin-right: 14px;
     padding-right: 49px;
 }
