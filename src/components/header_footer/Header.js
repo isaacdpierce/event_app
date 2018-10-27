@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import MenuIcon from "@material-ui/icons/Menu";
-import IconButton from "@material-ui/core/IconButton";
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import MenuIcon from '@material-ui/icons/Menu';
+import IconButton from '@material-ui/core/IconButton';
 
-import SideDrawer from "./SideDrawer";
+import SideDrawer from './SideDrawer';
 
 class Header extends Component {
   state = {
@@ -14,7 +14,7 @@ class Header extends Component {
   };
 
   componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll);
   }
 
   handleScroll = () => {
@@ -40,9 +40,9 @@ class Header extends Component {
       <AppBar
         position="fixed"
         style={{
-          backgroundColor: this.state.headerShow ? "#2f2f2f" : "transparent",
-          boxShadow: "none",
-          padding: "10px 0px"
+          backgroundColor: this.state.headerShow ? '#2f2f2f' : 'transparent',
+          boxShadow: 'none',
+          padding: '10px 0px'
         }}
       >
         <Toolbar>
