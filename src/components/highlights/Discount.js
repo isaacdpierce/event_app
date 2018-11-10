@@ -41,9 +41,9 @@ class Discount extends Component {
               <h3>A sip of wine, a cigarette, And then it’s time to go.</h3>
               <p>
                 Now I've heard there was a secret chord That David played, and
-                it pleased the Lord But you don't really care for music, do you?
-                It goes like this, the fourth, the fifth The minor fall, the
-                major lift The baffled king composing Hallelujah
+                it pleased the Lord, but you don't really care for music, do
+                you? It goes like this, the fourth, the fifth The minor fall,
+                the major lift The baffled king composing Hallelujah
               </p>
               <MyButton
                 text="Get TIckets >"
