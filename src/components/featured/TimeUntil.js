@@ -3,11 +3,11 @@ import Slide from 'react-reveal/Slide';
 
 class TimeUntil extends Component {
   state = {
-    deadline: 'Dec, 21, 2018',
+    deadline: 'Dec, 21, 2021',
     days: '0',
     hours: '0',
     minutes: '0',
-    seconds: '0'
+    seconds: '0',
   };
 
   getTimeUntil(deadline) {
@@ -24,7 +24,7 @@ class TimeUntil extends Component {
         days,
         hours,
         minutes,
-        seconds
+        seconds,
       });
     }
   }
@@ -37,24 +37,24 @@ class TimeUntil extends Component {
     const { days, hours, minutes, seconds } = this.state;
     return (
       <Slide left delay={1000}>
-        <div className="countdown_wrapper">
-          <div className="countdown_top">Event Starts in</div>
-          <div className="countdown_bottom">
-            <div className="countdown_item">
-              <div className="countdown_time">{days}</div>
-              <div className="countdown_tag">Days</div>
+        <div className='countdown_wrapper'>
+          <div className='countdown_top'>Event Starts in</div>
+          <div className='countdown_bottom'>
+            <div className='countdown_item'>
+              <div className='countdown_time'>{days}</div>
+              <div className='countdown_tag'>Days</div>
             </div>
-            <div className="countdown_item">
-              <div className="countdown_time">{hours}</div>
-              <div className="countdown_tag">Hrs</div>
+            <div className='countdown_item'>
+              <div className='countdown_time'>{hours}</div>
+              <div className='countdown_tag'>Hrs</div>
             </div>
-            <div className="countdown_item">
-              <div className="countdown_time">{minutes}</div>
-              <div className="countdown_tag">Mins</div>
+            <div className='countdown_item'>
+              <div className='countdown_time'>{minutes}</div>
+              <div className='countdown_tag'>Mins</div>
             </div>
-            <div className="countdown_item">
-              <div className="countdown_time">{seconds}</div>
-              <div className="countdown_tag">secs</div>
+            <div className='countdown_item'>
+              <div className='countdown_time'>{seconds}</div>
+              <div className='countdown_tag'>secs</div>
             </div>
           </div>
         </div>
